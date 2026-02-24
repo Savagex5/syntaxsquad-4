@@ -1,0 +1,73 @@
+body{
+  background-image: url('assets/laptop\ img.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.l-side{
+   flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  gap: 20px;
+}
+
+.name{
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: wheat;
+  padding-bottom: 15px;
+}
+
+.r-side{
+  flex: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  color: aliceblue;
+  background-color: blueviolet;
+    
+}
+
+.btn:hover{
+  color: wheat;
+  background-color: brown;
+}
+
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px ;
+  font: bold;
+  color: wheat;
+}
